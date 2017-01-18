@@ -186,9 +186,13 @@ int custom()
 		{
 			printf("\nWhat key would you like to use? (exactly 8 characters)\n");
 			fgets(key, 10, stdin);
-			if (key[(strlen(key) - 1)] == '\n')
+			if ((key[(strlen(key) - 1)] == '\n') && strlen(key) == 9)
 			{
 				break;
+			}
+			else if (strlen(key) < 9)
+			{
+				printf("Please input a string of length: 8\n");
 			}
 			else
 			{
@@ -232,9 +236,13 @@ int custom()
 		{
 			printf("\nWhat key was used? (exactly 8 characters)\n");
 			fgets(key, 10, stdin);
-			if (key[strlen(key) - 1] == '\n')
+			if ((key[strlen(key) - 1] == '\n') && strlen(key) == 9)
 			{
 				break;
+			}
+			else if (strlen(key) < 9)
+			{
+				printf("Please input a string of length: 8\n");
 			}
 			else
 			{
