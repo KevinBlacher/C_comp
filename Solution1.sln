@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "New_Comp", "New_Comp.vcxproj", "{C72AFBF6-D594-4779-98F1-F931355D9454}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{531E1324-70F0-4E25-947F-09199E3F7196}"
+	ProjectSection(SolutionItems) = preProject
+		python_test.py = python_test.py
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
